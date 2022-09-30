@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {}
+
+body {
+    background-image: linear-gradient(45deg,#025E73, #011F26);
+}
+
+main {
+    background-color: aliceblue;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color: orange;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+    color: orange;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+}

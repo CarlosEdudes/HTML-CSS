@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamicas</title>
+</head>
+<body>
+    <h1>Imagens que se adaptam sozinhas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes, ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="fundo-neve-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="fundo-neve-M.png" type="image/png">
+        <img src="fundo-neve-G.png" alt="Imagem flexível">
+    </picture>
+    <h1>Inserindo audio no seu site</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    <audio controls preload="metadata" loop>
+        <source src="midia/matue.mp3" type="audio/mpeg">
+        <source src="midia/guanacas-33.ogg" type="audio/ogg">
+        <source src="midia/guanacas-33.wav" type="audio/wav">
+        <p>Infelizmente o seu navegador não consegue reproduzir áudio.
+        <a href="midia/matue.mp3">Clique aqui para baixar o arquivo MP3</a>
+        </p>
+    </audio>
+    <video src="midia/pexels-engin-akyurt-10358140 (1).mp4" controls></video>
+</body>
+</html>
